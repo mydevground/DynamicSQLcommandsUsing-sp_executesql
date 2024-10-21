@@ -1,6 +1,6 @@
 /* Dynamic SQL commands using "sp_executesql"
-sp_executesql stored procedure is used to execute dynamic SQL queries that are in the form of a string. Let’s see this in action
-using BookStore database we created.
+sp_executesql stored procedure is used to execute dynamic SQL queries that are in the form of a string. Letâ€™s see this in action
+using BookStore database we created.(BookStore database common and available online)
 */
 
 USE BookStore
@@ -31,7 +31,7 @@ EXECUTE sp_executesql @SQL_QUERY_TWO
 
 --Senario three:
 --You can also pass parameters to the sp_executesql. 
---This is particularly handy when you don’t know the values used to filter records before runtime. 
+--This is particularly handy when you donâ€™t know the values used to filter records before runtime. 
 
 
 DECLARE @CONDITION_TWO NVARCHAR(128)
